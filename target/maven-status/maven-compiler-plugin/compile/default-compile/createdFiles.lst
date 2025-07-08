@@ -1,0 +1,11 @@
+bookstore\Service\Shippable.class
+bookstore\Service\ShippingService.class
+bookstore\Model\Book.class
+bookstore\Model\EBook.class
+bookstore\Model\PaperBook.class
+bookstore\Service\Salable.class
+bookstore\Service\MailService.class
+bookstore\Model\DemoBook.class
+bookstore\Service\BuyService.class
+bookstore\Service\InventoryService.class
+bookstore\Service\Emailable.class

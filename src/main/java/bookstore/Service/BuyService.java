@@ -20,7 +20,7 @@ public class BuyService
         int availableQty = salable.getQuantity();
         if (availableQty < quantity)
         {
-            throw new Exception("Quantum book store: Not enough quantity available");
+            throw new Exception("Not enough quantity available");
         }
 
         //reduce quantity
@@ -39,7 +39,7 @@ public class BuyService
             MailService.send((Emailable) book, email);
         }
 
-        System.out.println("Quantum book store: " + quantity + "x \"" + book.getTitle() + "\" purchased.");
+        System.out.println(quantity + "x \"" + book.getTitle() + "\" purchased.");
         return totalPrice;
     }
 }

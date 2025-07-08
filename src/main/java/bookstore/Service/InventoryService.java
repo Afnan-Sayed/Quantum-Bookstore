@@ -38,7 +38,7 @@ public class InventoryService
 
         for (Book book: new ArrayList<>(inventory.values()))
         {
-            if ((currentYear-book.getPublishYear()) >years)
+            if ((currentYear-book.getPublishYear()) >=years)
             {
                 outdated.add(book);
                 inventory.remove(book.getIsbn());
