@@ -6,9 +6,14 @@ The system is designed to be easily extensible, so that we don’t need to modif
 
 
 ## Results of running
-- You will find mvn ```test.png``` file which includes the result in the console after running ```mvn test``` command
+- You will find ```mvn test.png``` file which includes the result in the console after running ```mvn test``` command
+  ![mvn test.png](images/mvn-test.png)
+
 - You will find ```build success.png``` file which includes the result in the console after running ```mvn clean compile``` command
+  ![build sucees.png](images/build-success.png)
+
 - You will find ```tests passed``` file which includes that all tests passed succefully
+  ![tests passed.png](images/tests-passed.png)
   
 ## Features
 - Add, retrieve, and remove books from inventory
