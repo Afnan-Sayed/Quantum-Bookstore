@@ -27,16 +27,16 @@ The system is designed to be easily extensible, so that we don’t need to modif
 ## 📂 Project Structure
 
 Quantum-Bookstore/
-├── src/
-│ ├── main/
-│ │ └── java/
-│ │ └── bookstore/
-│ │ ├── Model/ # Book types (PaperBook, EBook, DemoBook)
-│ │ └── Service/ # Services (BuyService, InventoryService, etc.)
-│ └── test/
-│ └── java/
-│ └── BookStoreTests.java # JUnit tests
-└── README.md
+- ├── src/
+- │ ├── main/
+- │ │ └── java/
+- │ │ └── bookstore/
+- │ │ ├── Model/ # Book types (PaperBook, EBook, DemoBook)
+- │ │ └── Service/ # Services (BuyService, InventoryService, etc.)
+- │ └── test/
+- │ └── java/
+- │ └── BookStoreTests.java # JUnit tests
+- └── README.md
 
 ---
 
