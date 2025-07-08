@@ -4,8 +4,13 @@ Quantum Bookstore is a Java-based application for managing and selling various t
 The system is designed to be easily extensible, so that we don’t need to modify it if we’ve added a new type of products
 ---
 
-## Features
 
+## Results of running
+- You will find mvn ```test.png``` file which includes the result in the console after running ```mvn test``` command
+- You will find ```build success.png``` file which includes the result in the console after running ```mvn clean compile``` command
+- You will find ```tests passed``` file which includes that all tests passed succefully
+  
+## Features
 - Add, retrieve, and remove books from inventory
 - Search for books using ISBN
 - Remove outdated books by publish year
